@@ -47,7 +47,7 @@ function App() {
     if (!validate()) return;
 
     try {
-      const response = await fetch('http://localhost:5000/calculate-alimony', {
+      const response = await fetch('https://api-alimony-calculator.onrender.com/calculate-alimony', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
