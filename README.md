@@ -1,2 +1,2 @@
-﻿# alimony-calculator
+﻿# EquiSupport
 
